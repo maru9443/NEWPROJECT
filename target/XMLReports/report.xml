@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="47.377" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="DataTable Feature Concept" name="New User Registration" time="7.143">
+<system-out><![CDATA[
+Given User is on registration page..........................................passed
+When user enters the personal details.......................................passed
+And User selects and accepts privacy policy.................................passed
+When User clicks on the continue button.....................................passed
+Then sucessful message displays as "Your Account Has Been Created!".........passed
+]]></system-out>
+</testcase>
+<testcase classname="HomePage Feature" name="Home Page Title" time="5.039">
+<system-out><![CDATA[
+Given user is on the home page..............................................passed
+When user gets the title of the home page...................................passed
+Then title of the page should be "Register Account".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="HomePage Feature" name="Home Page Header Bar count" time="5.543">
+<system-out><![CDATA[
+Given User is on the home page..............................................passed
+When User gets the count of the header bar..................................passed
+Then Header count must be 8.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HomePage Feature" name="Visibility of Home Page Headers Texts" time="4.462">
+<system-out><![CDATA[
+Given User is on the home page..............................................passed
+When User gets the elements texts of headers................................passed
+Then texts of the headers should be.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="Login with different usernames and passwords - #1.1" time="9.189">
+<system-out><![CDATA[
+Given user in the login page................................................passed
+When user enters the username as "shiva@gmail.com" and password as "Kranthi@789*".passed
+And user clicks on login button.............................................passed
+Then login page title should be "My Account"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="Login with different usernames and passwords - #1.2" time="6.132">
+<system-out><![CDATA[
+Given user in the login page................................................passed
+When user enters the username as "swapnil@gmail.com" and password as "Uday@789*".passed
+And user clicks on login button.............................................passed
+Then login page title should be "My Account"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="LoginPage Footers List" time="5.549">
+<system-out><![CDATA[
+Given user in the login page................................................passed
+When User gets the login page footers list..................................passed
+Then Footers list should contain "Contact Us"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="Email Address and Password fileds placeholders" time="4.102">
+<system-out><![CDATA[
+Given user in the login page................................................passed
+When User gets the Email Address and Password fileds placeholders...........passed
+Then Email address and Password placeholder values should be "E-Mail Address" and "Password".passed
+]]></system-out>
+</testcase>
+</testsuite>
