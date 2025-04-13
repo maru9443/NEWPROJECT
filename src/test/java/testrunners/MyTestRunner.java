@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
                  glue={"StepDefinitions","AppHooks"},
                  monochrome=true,
                  dryRun=false,
-                 publish=false,
+                 publish=true,
+                 tags="@RegressionTesting",
                  plugin= {"pretty",
                 		 
                 		 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

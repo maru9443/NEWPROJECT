@@ -1,6 +1,6 @@
 Feature: HomePage Feature
 
-
+@RegressionTesting
 Scenario: Home Page Title
 Given user is on the home page
 When user gets the title of the home page
